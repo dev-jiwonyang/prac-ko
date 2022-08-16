@@ -1,0 +1,4 @@
+package arrow
+
+class Validated {
+}
