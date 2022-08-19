@@ -4,7 +4,6 @@ import arrow.core.Either
 import arrow.core.continuations.Effect
 import arrow.core.continuations.effect
 import arrow.core.identity
-import arrow.core.right
 import io.kotest.matchers.shouldBe
 
 val failed: Effect<String, Int> =

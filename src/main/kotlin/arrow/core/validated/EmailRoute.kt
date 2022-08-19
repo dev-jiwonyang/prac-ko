@@ -37,7 +37,7 @@ fun <E, A, B, C, D, R> validate(
 ): ValidatedNel<E, R> = a.zip(Semigroup.nonEmptyList(), b, c, d, f)
 
 @JvmInline
-value class Email private constructor( val value: String) {
+value class Email private constructor(val value: String) {
     companion object {
         operator fun invoke(value: String): Validated<ValidationErrors, Email> =
             when {

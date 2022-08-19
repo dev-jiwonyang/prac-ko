@@ -1,10 +1,5 @@
 package arrow.core.effect
 
-import arrow.core.continuations.effect
-import io.kotest.matchers.shouldBe
-import jdk.nashorn.internal.objects.NativeArray.shift
-import kotlinx.coroutines.CompletableDeferred
-
 //suspend fun <A> awaitExitCase(exit: CompletableDeferred<ExitCase>): A =
 //    guaranteeCase(::awaitCancellation) { exitCase -> exit.complete(exitCase) }
 //
